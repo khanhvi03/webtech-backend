@@ -2,7 +2,7 @@
 (English Version)
 
 Welcome to our Digital Planning Calendar!
-Our Digital Planning Calendar is a user-friendly, versatile tool that helps you organize your schedule and keep track of important events. This README will guide you through the setup and basic usage of the application.
+Our Digital Planning Calendar is a appUser-friendly, versatile tool that helps you organize your schedule and keep track of important events. This README will guide you through the setup and basic usage of the application.
 
 Features:
  - Account Creation: Start by creating a secure account to save your agenda data.
