@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  springapp:
+    build: .
+    container_name: springapp
+    depends_on:
+      - db
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/postgres
+    ports:
+      - "8000:8080"
+    restart: always
+
+  db:
+    image: postgres:latest
+    container_name: testdb
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=20030917
+    ports:
+      - "5000:5432"
+    restart: always
